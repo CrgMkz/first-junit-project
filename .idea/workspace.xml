@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8055823f-339c-4fd7-8584-6ef8cc796970" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/in28minutes/junit/helper/StringHelperTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/in28minutes/junit/helper/StringHelperTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/StringHelperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/StringHelperTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,8 +31,8 @@
       <file leaf-file-name="StringHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/junit/helper/StringHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+            <state relative-caret-position="221">
+              <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -39,10 +41,12 @@
       <file leaf-file-name="StringHelperTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/StringHelperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+            <state relative-caret-position="287">
+              <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#952#953#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -274,6 +278,58 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="false" name="StringHelperTest.testtruncateAInFirst2Positions2_1AInFirstPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.junit.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JunitCourse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.in28minutes.junit.helper" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.junit.helper.StringHelperTest" />
+      <option name="METHOD_NAME" value="testtruncateAInFirst2Positions2_1AInFirstPosition" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringHelperTest.testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.junit.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JunitCourse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.in28minutes.junit.helper" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.junit.helper.StringHelperTest" />
+      <option name="METHOD_NAME" value="testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -478,14 +534,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.StringHelperTest.test" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.StringHelperTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testtruncateAInFirst2Positions2_1AInFirstPosition" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="JUnit.StringHelperTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StringHelperTest.test" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testtruncateAInFirst2Positions2_1AInFirstPosition" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StringHelperTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -503,23 +563,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringHelperTest - 2017.04.28 at 21h 51m 29s.xml">
+    <history-entry file="StringHelperTest - 2017.04.28 at 22h 35m 47s.xml">
       <configuration name="StringHelperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest - 2017.04.28 at 22h 09m 25s.xml">
+    <history-entry file="StringHelperTest - 2017.04.28 at 22h 37m 26s.xml">
       <configuration name="StringHelperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest - 2017.04.28 at 22h 18m 17s.xml">
+    <history-entry file="StringHelperTest - 2017.04.28 at 22h 39m 03s.xml">
       <configuration name="StringHelperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest_test - 2017.04.28 at 21h 47m 24s.xml">
-      <configuration name="StringHelperTest.test" configurationId="JUnit" />
+    <history-entry file="StringHelperTest - 2017.04.28 at 22h 54m 03s.xml">
+      <configuration name="StringHelperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest_test - 2017.04.28 at 22h 07m 39s.xml">
-      <configuration name="StringHelperTest.test" configurationId="JUnit" />
+    <history-entry file="StringHelperTest - 2017.04.28 at 22h 54m 47s.xml">
+      <configuration name="StringHelperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest_test - 2017.04.28 at 22h 13m 17s.xml">
-      <configuration name="StringHelperTest.test" configurationId="JUnit" />
+    <history-entry file="StringHelperTest - 2017.04.28 at 22h 58m 23s.xml">
+      <configuration name="StringHelperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringHelperTest - 2017.04.28 at 22h 58m 56s.xml">
+      <configuration name="StringHelperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringHelperTest - 2017.04.28 at 23h 01m 38s.xml">
+      <configuration name="StringHelperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringHelperTest_testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario - 2017.04.28 at 22h 53m 55s.xml">
+      <configuration name="StringHelperTest.testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StringHelperTest_testtruncateAInFirst2Positions2_1AInFirstPosition - 2017.04.28 at 22h 35m 33s.xml">
+      <configuration name="StringHelperTest.testtruncateAInFirst2Positions2_1AInFirstPosition" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -536,9 +608,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20763358" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25370803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -590,6 +662,8 @@
           <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -604,18 +678,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/junit/helper/StringHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        <state relative-caret-position="221">
+          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/StringHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="287">
+          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
           </folding>
         </state>
       </provider>
