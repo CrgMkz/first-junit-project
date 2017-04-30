@@ -1,5 +1,7 @@
 package com.in28minutes.junit.helper;
 
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -8,7 +10,12 @@ import static org.junit.Assert.*;
  * Created by craig on 28/04/17.
  */
 public class StringHelperTest{
-    StringHelper helper = new StringHelper();
+    StringHelper helper;
+
+    @Before
+    public void before(){
+        helper = new StringHelper();
+    }
 
     @Test
     public void testtruncateAInFirst2Positions_Ainfirst2positions(){
@@ -56,5 +63,7 @@ public class StringHelperTest{
     public void testAreFirstAndLastTwoCharactersTheSame_SingleCharacterFalse(){
         assertFalse(helper.areFirstAndLastTwoCharactersTheSame("A"));
     }
+
+
 
 }
