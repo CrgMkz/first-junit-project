@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8055823f-339c-4fd7-8584-6ef8cc796970" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/QuickBeforeAfterTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/ArraysCompareTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/in28minutes/junit/helper/QuickBeforeAfterTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/in28minutes/junit/helper/QuickBeforeAfterTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/StringHelperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/StringHelperTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/QuickBeforeAfterTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/QuickBeforeAfterTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,28 +32,43 @@
       <file leaf-file-name="StringHelper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/junit/helper/StringHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickBeforeAfterTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/QuickBeforeAfterTest.java">
+      <file leaf-file-name="ArraysCompareTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/ArraysCompareTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#344#345#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#524#525#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickBeforeAfterTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/QuickBeforeAfterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#486#487#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#729#730#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,6 +113,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/StringHelperTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/QuickBeforeAfterTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/ArraysCompareTest.java" />
       </list>
     </option>
   </component>
@@ -254,33 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuickBeforeAfterTest">
-    <configuration default="false" name="StringHelperTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.in28minutes.junit.helper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JunitCourse" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.in28minutes.junit.helper" />
-      <option name="MAIN_CLASS_NAME" value="com.in28minutes.junit.helper.StringHelperTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.ArraysCompareTest.testArraySort_RandomArray">
     <configuration default="false" name="StringHelperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -295,32 +286,6 @@
       <option name="MAIN_CLASS_NAME" value="com.in28minutes.junit.helper.StringHelperTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="StringHelperTest.testtruncateAInFirst2Positions2_1AInFirstPosition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.in28minutes.junit.helper.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JunitCourse" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.in28minutes.junit.helper" />
-      <option name="MAIN_CLASS_NAME" value="com.in28minutes.junit.helper.StringHelperTest" />
-      <option name="METHOD_NAME" value="testtruncateAInFirst2Positions2_1AInFirstPosition" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -373,6 +338,58 @@
       <option name="MAIN_CLASS_NAME" value="com.in28minutes.junit.helper.QuickBeforeAfterTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArraysCompareTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.junit.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JunitCourse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.in28minutes.junit.helper" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.junit.helper.ArraysCompareTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArraysCompareTest.testArraySort_RandomArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.junit.helper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JunitCourse" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.in28minutes.junit.helper" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.junit.helper.ArraysCompareTest" />
+      <option name="METHOD_NAME" value="testArraySort_RandomArray" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -590,19 +607,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.StringHelperTest.test" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StringHelperTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testtruncateAInFirst2Positions2_1AInFirstPosition" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.QuickBeforeAfterTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StringHelperTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.QuickBeforeAfterTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ArraysCompareTest.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ArraysCompareTest.testArraySort_RandomArray" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.QuickBeforeAfterTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StringHelperTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testtruncateAInFirst2Positions2_1AInFirstPosition" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.StringHelperTest.test" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ArraysCompareTest.testArraySort_RandomArray" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ArraysCompareTest.test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.QuickBeforeAfterTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StringHelperTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StringHelperTest.testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" />
       </list>
     </recent_temporary>
   </component>
@@ -620,23 +637,26 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuickBeforeAfterTest - 2017.04.30 at 21h 07m 56s.xml">
-      <configuration name="QuickBeforeAfterTest" configurationId="JUnit" />
+    <history-entry file="ArraysCompareTest_test - 2017.04.30 at 21h 40m 02s.xml">
+      <configuration name="ArraysCompareTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArraysCompareTest_testArraySort_RandomArray - 2017.04.30 at 21h 42m 50s.xml">
+      <configuration name="ArraysCompareTest.testArraySort_RandomArray" configurationId="JUnit" />
     </history-entry>
     <history-entry file="QuickBeforeAfterTest - 2017.04.30 at 21h 12m 30s.xml">
       <configuration name="QuickBeforeAfterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest - 2017.04.28 at 22h 58m 56s.xml">
-      <configuration name="StringHelperTest" configurationId="JUnit" />
+    <history-entry file="QuickBeforeAfterTest - 2017.04.30 at 21h 18m 10s.xml">
+      <configuration name="QuickBeforeAfterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest - 2017.04.28 at 23h 01m 38s.xml">
-      <configuration name="StringHelperTest" configurationId="JUnit" />
+    <history-entry file="QuickBeforeAfterTest - 2017.04.30 at 21h 18m 36s.xml">
+      <configuration name="QuickBeforeAfterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest - 2017.04.28 at 23h 04m 30s.xml">
-      <configuration name="StringHelperTest" configurationId="JUnit" />
+    <history-entry file="QuickBeforeAfterTest - 2017.04.30 at 21h 21m 06s.xml">
+      <configuration name="QuickBeforeAfterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest - 2017.04.30 at 21h 01m 42s.xml">
-      <configuration name="StringHelperTest" configurationId="JUnit" />
+    <history-entry file="QuickBeforeAfterTest - 2017.04.30 at 21h 21m 25s.xml">
+      <configuration name="QuickBeforeAfterTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="StringHelperTest - 2017.04.30 at 21h 11m 34s.xml">
       <configuration name="StringHelperTest" configurationId="JUnit" />
@@ -647,12 +667,10 @@
     <history-entry file="StringHelperTest - 2017.04.30 at 21h 12m 11s.xml">
       <configuration name="StringHelperTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringHelperTest_testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario - 2017.04.28 at 22h 53m 55s.xml">
-      <configuration name="StringHelperTest.testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="754" width="1325" height="783" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -664,9 +682,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28244275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28244275" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25761124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -760,14 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/junit/helper/StringHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/StringHelperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
@@ -782,18 +792,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/QuickBeforeAfterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        <state relative-caret-position="197">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#486#487#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/junit/helper/StringHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/junit/helper/ArraysCompareTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
