@@ -19,4 +19,30 @@ public class ArraysCompareTest{
         assertArrayEquals(expected, numbers);
     }
 
+    //The following passes null to the arrays.sort
+    // method resulting in an exception
+    @Test
+    public void testArraySort_NullArray() {
+        int[] numbers = null;
+        try {
+            Arrays.sort(numbers);
+        } catch (NullPointerException e) {
+            //Success
+        }
+    }
+    //This is the same but uses a
+    //special annotation
+    @Test(expected=NullPointerException.class)
+    public void testArraySort_NullArray2() {
+        int[] numbers = null;
+        Arrays.sort(numbers);
+    }
+
+    //This will fail as it's an empty
+    //array and will not throw an exception
+    @Test(expected=NullPointerException.class)
+    public void testArraySort_NullArray3() {
+        int[] numbers = {};
+        Arrays.sort(numbers);
+    }
 }
