@@ -2,6 +2,7 @@ package com.in28minutes.junit.helper;
 
 import org.junit.Test;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 import static org.junit.Assert.*;
@@ -40,9 +41,21 @@ public class ArraysCompareTest{
 
     //This will fail as it's an empty
     //array and will not throw an exception
-    @Test(expected=NullPointerException.class)
-    public void testArraySort_NullArray3() {
-        int[] numbers = {};
-        Arrays.sort(numbers);
+//    @Test(expected=NullPointerException.class)
+//    public void testArraySort_NullArray3() {
+//        int[] numbers = {};
+//        Arrays.sort(numbers);
+//    }
+
+    //This test checks if it can complete the following
+    //request within a set number of milliseconds
+    @Test(timeout=100)
+    public void testSort_Performance() {
+        int array[] = {12,23,4};
+        for (int i = 1; i <= 1000000; i++) {
+            array[0] = i;
+        }
+
+
     }
 }
